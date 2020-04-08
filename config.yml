@@ -30,6 +30,14 @@ links:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
+  - name: "Home Server"
+    icon: "fas fa-server"
+      - name: "Nexcloud"
+        logo: "assets/tools/jenkins.png"
+        subtitle: "private cloud service"
+	tag: "NC"
+	url: "https://cloud.nronne.dk/"
+	target: '_blank'
   - name: "DevOps"
     icon: "fas fa-code-branch"
     items:
