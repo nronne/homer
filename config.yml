@@ -43,7 +43,7 @@ services:
         url: "https://cloud.nronne.dk/"
         target: '_blank'
       - name: "Webmin"
-        logo: "fas fa-user-cog"
+        logo: "assets/tools/webmin.png"
         url: "192.168.8.201/:10000"
       - name: "Cloudflare"
         logo: "assets/tools/cloudflare.png"
