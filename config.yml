@@ -18,13 +18,16 @@ message:
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
-  - name: "ansible"
+  - name: "github"
     icon: "fab fa-github"
-    url: "https://github.com/nronne/homer"
+    url: "https://github.com/nronne/"
     target: '_blank' # optionnal html a tag target attribute
-  - name: "Wiki"
+  - name: "Blackboard"
     icon: "fas fa-book"
-    url: "https://www.wikipedia.org/"
+    url: "https://blackboard.au.dk/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_132_1"
+  - name: "AU mail"
+    icon: "fab fa-envelope"
+    target: "https://post.au.dk/roundcube/"
 
 # Services
 # First level array represent a group.
@@ -33,12 +36,19 @@ services:
   - name: "Home Server"
     icon: "fas fa-server"
     items:
-      - name: "Nexcloud"
+      - name: "Nextcloud"
         logo: "assets/tools/nextcloud.png"
         subtitle: "private cloud service"
         tag: "NC"
         url: "https://cloud.nronne.dk/"
         target: '_blank'
+      - name: "Webmin"
+        logo: "fas fa-user-cog"
+        url: "192.168.8.201/:10000"
+      - name: "Cloudflare"
+        logo: "assets/tools/cloudflare.png"
+        tag: "CF"
+        url: "https://www.cloudflare.com/"
   - name: "DevOps"
     icon: "fas fa-code-branch"
     items:
