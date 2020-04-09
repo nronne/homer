@@ -44,9 +44,11 @@ services:
         target: '_blank'
       - name: "Webmin"
         logo: "assets/tools/webmin.png"
+        subtitle: "administrative site"
         url: "192.168.8.201/:10000"
       - name: "Cloudflare"
         logo: "assets/tools/cloudflare.png"
+        subtitle: "DNS and monitoring"
         tag: "CF"
         url: "https://www.cloudflare.com/"
   - name: "DevOps"
